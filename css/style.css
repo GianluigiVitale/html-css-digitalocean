@@ -53,7 +53,7 @@ nav li {
 /* BANNER */
 
 .banner {
-    background-color: #0049FF;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
     padding-top: 63px;
     padding-bottom: 63px;
 }
