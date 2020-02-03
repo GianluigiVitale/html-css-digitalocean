@@ -51,6 +51,7 @@ button {
 }
 
 /* BANNER */
+
 .banner {
     background-color: #0049FF;
     padding-top: 63px;
@@ -68,4 +69,51 @@ button {
     font-size: 24px;
     color: white;
     margin: 16px 0 32px;
+}
+
+/* FORM */
+
+form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+form h2 {
+    padding-top: 40px;
+    color: #031B4E;
+    font-size: 30px;
+    margin: 8px 0px 32px;
+    font-weight: 700;
+}
+
+.form-input {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.createaccount {
+    color: white;
+    background-color: #0069FF;
+    font-size: 16px;
+}
+
+.signupwithgoogle {
+    color: #031B4E;
+    background-color: white;
+    font-size: 16px;
+}
+
+form p {
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+form a {
+    color: #0069FF;
+    text-decoration: underline;
 }
