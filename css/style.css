@@ -11,7 +11,8 @@ a:hover {
 /* HEADER */
 
 header {
-    background-color: lightgreen;
+    position: sticky;
+    z-index: 9999;
 }
 
 header h2 {
@@ -47,4 +48,24 @@ button {
     border-radius: 8px;
     padding: 11px 16px 8px;
     font-size: 13px;
+}
+
+/* BANNER */
+.banner {
+    background-color: #0049FF;
+    padding-top: 63px;
+}
+
+.banner h1 {
+    font-size: 62px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 75px;
+    color: white;
+}
+
+.banner p {
+    font-size: 24px;
+    color: white;
+    margin: 16px 0 32px;
 }
