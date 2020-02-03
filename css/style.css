@@ -125,6 +125,12 @@ form a {
     height: 120px;
 }
 
+.proofofwork {
+    background-color: #F3F5F9;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
 .proofofwork img {
     position: relative;
     transform: translateY(-50%);
@@ -140,7 +146,6 @@ form a {
 .proofofwork p {
     color: #939EB4;
     font-size: 14px;
-    margin-top: 16px;
     margin-bottom: 16px;
     font-weight: 600;
 }
