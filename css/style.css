@@ -1,0 +1,39 @@
+/* FONT FOR ALL PAGE */
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: lightgreen;
+}
+
+header h2 {
+    color: #0069FF;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav a {
+    color: #293E69;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #0F72FF;
+}
+
+nav li {
+    padding: 0 10px;
+}
