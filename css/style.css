@@ -15,13 +15,14 @@ header {
 }
 
 header h2 {
+    margin: 17px 0;
     color: #0069FF;
     font-weight: 600;
     font-size: 22px;
 }
 
 nav {
-    padding-top: 10px;
+    padding-top: 17px;
 }
 
 nav a {
@@ -36,4 +37,14 @@ nav a:hover {
 
 nav li {
     padding: 0 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: white;
+    color: #0069FF;
+    border: 1px solid #0069ff;
+    border-radius: 8px;
+    padding: 11px 16px 8px;
+    font-size: 13px;
 }
