@@ -55,6 +55,7 @@ nav li {
 .banner {
     background-color: #0049FF;
     padding-top: 63px;
+    padding-bottom: 63px;
 }
 
 .banner h1 {
@@ -73,56 +74,45 @@ nav li {
 
 /* FORM */
 
-/* .formbg {
+form {
     background-color: white;
     border-radius: 5px;
+    padding: 30px;
 }
 
 form h2 {
-    padding-top: 40px;
     color: #031B4E;
-    font-size: 30px;
-    margin: 8px 0px 32px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
-.form-input {
-    width: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
-
-.createaccount {
+form button:first-of-type {
     color: white;
     background-color: #0069FF;
-    font-size: 16px;
-    margin-bottom: 10px;
 }
 
-.signupwithgoogle {
-    color: #031B4E;
-    background-color: white;
-    font-size: 16px;
+label {
+    display: none;
 }
 
-#formp {
-    color: rgba(3, 27, 78, 0.7);
-    font-size: 15px;
-    padding-top: 16px;
+.form-control {
+    height: 50px;
 }
 
-form a {
-    color: #0069FF;
-    text-decoration: underline;
-} */
+.ms--ToS {
+    margin-top: 30px;
+}
+
+.ms--ToS p {
+    margin-bottom: 0;
+    color: black;
+    font-size: 12px;
+}
 
 /* ICONS */
 
 .heightlogo {
-    height: 120px;
+    height: 100px;
 }
 
 .proofofwork {
@@ -134,7 +124,7 @@ form a {
 .proofofwork img {
     position: relative;
     transform: translateY(-50%);
-    width: 150px;
+    width: 120px;
     top: 50%;
 }
 
