@@ -40,7 +40,7 @@ nav li {
     padding: 0 10px;
 }
 
-button {
+.signup {
     margin-top: 10px;
     background-color: white;
     color: #0069FF;
@@ -73,7 +73,7 @@ button {
 
 /* FORM */
 
-form {
+.formbg {
     background-color: white;
     border-radius: 5px;
 }
@@ -99,6 +99,7 @@ form h2 {
     color: white;
     background-color: #0069FF;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .signupwithgoogle {
@@ -107,9 +108,9 @@ form h2 {
     font-size: 16px;
 }
 
-form p {
+#formp {
     color: rgba(3, 27, 78, 0.7);
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 16px;
 }
 
