@@ -73,7 +73,7 @@ nav li {
 
 /* FORM */
 
-.formbg {
+/* .formbg {
     background-color: white;
     border-radius: 5px;
 }
@@ -117,4 +117,36 @@ form h2 {
 form a {
     color: #0069FF;
     text-decoration: underline;
+} */
+
+/* ICONS */
+
+.heightlogo {
+    height: 120px;
+}
+
+.proofofwork img {
+    position: relative;
+    transform: translateY(-50%);
+    width: 150px;
+    top: 50%;
+}
+
+.alignment {
+    display: inline;
+    vertical-align: bottom;
+}
+
+.proofofwork p {
+    color: #939EB4;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.proofofwork a {
+    color: #0069FF;
+    font-size: 16px;
+    font-weight: 600;
 }
