@@ -145,3 +145,196 @@ label {
     font-size: 16px;
     font-weight: 600;
 }
+
+/* SERVICES */
+
+.services {
+    padding-bottom: 100px;
+}
+
+.topservices {
+    padding: 90px 0 70px;
+}
+
+.topservices h2 {
+    color: #031B4E;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.topservices p {
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 20px;
+    margin: 16px 0px 64px;
+}
+
+.leftmenu li {
+    padding: 16px 0 16px 30px;
+    border-left: 1px solid gray;
+}
+
+.leftmenu li:hover {
+    border-color: #0069ff;
+}
+
+.leftmenu a {
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.leftmenu a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+.bottomservices h3 {
+    font-weight: 600;
+    color: #031B4E;
+    font-size: 20px;
+}
+
+.bottomservices p {
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 17px;
+}
+
+/* DEVELOPERS */
+
+.developers {
+    background-color: #F3F5F9;
+    padding: 100px 0;
+}
+
+.developers h2 {
+    color: #031B4E;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.developers h3 {
+    padding-bottom: 50px;
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 24px;
+}
+
+.developers p {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 16px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+    position: relative;
+    top: 250px;
+}
+
+.fa-chevron-left {
+    color: #a9b2c4;
+}
+
+.fa-chevron-right {
+    color: #031b4e;
+}
+
+.fa-chevron-right:hover {
+    color: #0248ff;
+}
+
+/* CUSTOMERS */
+
+.customers {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-size: cover;
+    background-color: #031b4e;
+    padding-bottom: 50px;
+}
+
+.customers h2 {
+    color: white;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.line {
+    border-bottom: 1px solid #354971;
+    padding-top: 10px;
+    padding-right: 1px;
+    margin: 0 3px;
+}
+
+.noline {
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+.fourlettername {
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.city {
+    font-size: 13px;
+    color: #9aa3b8;
+}
+
+.customers a {
+    font-size: 11px;
+    color: #00d7d2;
+}
+
+.customers a:hover {
+    color: #0248ff;
+}
+
+/* DEVELOPMENT */
+
+.development {
+    background-color: #F3F5F9;
+    padding: 100px 0;
+}
+
+.development h2 {
+    color: #031B4E;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.development h3 {
+    padding-bottom: 50px;
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 24px;
+}
+
+/* START */
+
+.getstarted {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
+}
+
+.getstarted h2 {
+    padding-top: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.getstarted button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0069ff;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.getstarted button:hover {
+    opacity: 0.6;
+}
