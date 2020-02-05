@@ -338,3 +338,59 @@ label {
 .getstarted button:hover {
     opacity: 0.6;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(1,14,40);
+}
+
+.footercontent {
+    padding: 80px 0;
+}
+
+footer h4 {
+    font-size: 14px;
+    color: white;
+}
+
+.footercontent li {
+    padding: 3px 0;
+}
+
+footer a,
+footer p {
+    font-size: 14px;
+    color: rgb(128,135,145);
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.ft-columns {
+    min-height: 382px;
+}
+
+.ft-btm {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-top: 1px solid #343e53;
+}
+
+footer p {
+    display: inline;
+}
+
+footer svg {
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+}
+
+footer i {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
